@@ -1,424 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8">
 
-<head>
-    <title>Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <title>Cocos Creator | future-star</title>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-</head>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
 
-<body>
-    <div class="container">
-        <h1 class="h11">Portfolio</h1>
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-        <!-- Profil dan Skill -->
-        <div class="profile-skill">
-            <!-- Profile -->
-            <div class="profile">
-                <hr>
-                <h1 class="title">MyProfile</h1>
-                <div>
-                    <img src="image/aku3.jpg" alt="aku3">
-                    <span>
-                        Let me introduce myself. My name is Fatkhulloh, and I am a Full-Stack Game Developer.  
-                        I was born in Pasuruan on April 26, 1994. I have a strong interest in programming and graphic design.  
-                        I am a good-natured person, capable of working in a team or individually, and able to learn quickly.
-                    </span>
-                </div>
-            </div>
-            <!-- Skill -->
-            <div class="skill">
-                <hr>
-                <h1 class="title">Skill</h1>
-                <div class="content">
-                    <ul>
-                        <li>Inkscape
-                            <div class="level1"></div>
-                        </li>
-                        <li>Unity
-                            <div class="level1"></div>
-                        </li>
-                        <li>Cocos Creator
-                            <div class="level1"></div>
-                        </li>
-                         <li>GameMaker Studio
-                            <div class="level1"></div>
-                        </li>
-                        <li>.NET (Desktop/Web)
-                            <div class="level2"></div>
-                        </li>
-                        <li>PHP (Native/Codeigniter)
-                            <div class="level2"></div>
-                        </li>
-                        <li>Node Js (React/Express)
-                            <div class="level4"></div>
-                        </li>
-                        <!-- <li>Blockchain / Solidity
-                            <div class="level6"></div>
-                        </li> -->
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="icon" href="favicon.ico"/>
+  </head>
+  <body>
+    <h1 class="header">future-star</h1>
 
-        <!-- Pengalaman dan Pendidikan -->
-        <div class="experience-education">
-            <!-- Experience -->
-            <div class="experience">
-                <hr>
-                <h1 class="title">Experience</h1>
-
-                <h3 class="title">1. Projects I Have Worked On</h3>
-                <div class="table-container">
-                    <table class="tabel">
-                        <tr>
-                            <th>No</th>
-                            <th>Experience</th>
-                            <th>Year</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Creating a 2D Educational Game for Introducing the History of Prophets</td>
-                            <td>2018</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Developing an Augmented Reality Application for Introducing the Functions of Basic Electronic Component Legs</td>
-                            <td>2018</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Creating the Game 'A Lot of Harvest' (on Google Play Store)</td>
-                            <td>2019</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Creating the Game 'Yudharta Farm' (on Google Play Store)</td>
-                            <td>2019</td>
-                        </tr>
-                    </table>
-                </div>
-
-            </br>
-                <h3 class="title">2. Professional Work Experience</h3>
-                <div class="table-container">
-                    <table class="tabel">
-                        <tr>
-                            <th>No</th>
-                            <th>Position</th>
-                            <th>Company</th>
-                            <th>Duration</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Game Programmer (Unity and Cocos Creator)</td>
-                            <td>PT WISAGENI MULTIMEDIA INDONESIA</td>
-                            <td>August 2022 - February 2023</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Unity Developer</td>
-                            <td>PT GEN KREASI DIGITAL INDONESIA</td>
-                            <td>February 2023 - September 2023</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Unity WebGl Developer</td>
-                            <td>PT KARYA LINTAS BANGSA</td>
-                            <td>May 2023 - December 2024</td>
-                        </tr>
-                    </table>
-                </div>
-
-                </br>
-                <h3 class="title">3.Professional Freelance Work</h3>
-                <div class="table-container">
-                    <table class="tabel">
-                        <tr>
-                            <th>No</th>
-                            <th>Position</th>
-                            <th>Company</th>
-                            <th>Duration</th>
-                        </tr>
-                        <!-- <tr>
-                            <td>1</td>
-                            <td>Unity Webgl</td>
-                            <td>Streamac / PT Karya Lintas Bangsa</td>
-                            <td>August 2022 - October 2024</td>
-                        </tr> -->
-                        <!-- <tr>
-                            <td>2</td>
-                            <td>Unity Developer</td>
-                            <td>ISmart Office</td>
-                            <td>October 2022 - March 2023</td>
-                        </tr> -->
-                        <tr>
-                            <td>1</td>
-                            <td>Game Programmer (GameMaker)</td>
-                            <td>Script Smelter Studio</td>
-                            <td>June 2023 - August 2024</td>
-                        </tr>
-                    </table>
-                </div>
-
-            </div>
-            <!-- Education -->
-            <div class="education">
-                <hr>
-                <h1 class="title">Education And Training</h1>
-                <h3 class="title">1. Education</h3>
-                <div class="table-container">
-                    <table class="tabel">
-                        <tr>
-                            <th>No</th>
-                            <th>Name of School</th>
-                            <th>Year</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>SDN 1 Bendungan (Public Elementary School 1 Bendungan)</td>
-                            <td>2004</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>SMPN 1 Kraton (Public Junior High School 1 Kraton)</td>
-                            <td>2008</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>SMKN 1 Bangil (Vocational High School 1 Bangil) <br> (Industrial Electronics Engineering)</td>
-                            <td>2011</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Yudharta University Pasuruan <br> (Informatics Engineering)</td>
-                            <td>2018</td>
-                        </tr>
-                    </table>
-                </div>
-                <br/>
-
-                <h3 class="title">2. Training</h3>
-                <div class="table-container">
-                    <table class="tabel">
-                        <tr>
-                            <th>No</th>
-                            <th>Training/Course Name</th>
-                            <th>Provider/Institution</th>
-                            <th>Year</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Become an Expert Unity Developer</td>
-                            <td>Dikoding Academy</td>
-                            <td>2018</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Become A Game Maker With GameMaker Studio 2</td>
-                            <td>Suspendee Studios at Udemy</td>
-                            <td>2023</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Node.Js MERN Edition 2024</td>
-                            <td>Dr. Angela Yu at Udemy</td>
-                            <td>2024</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Ethereum and Solidity: The Complete Developer's Guide</td>
-                            <td>Mr. Stephen at Udemy</td>
-                            <td>2024</td>
-                        </tr>
-                        
-
-                    </table>
-                </div>
-            </div>
-        </div>
-
-        <!-- Projects -->
-        <div class="project">
-            <hr>
-            <h1 class="title">MyProjects</h1>
-            <div class="card-container">
-                <!-- Project Cards as shown above -->
-                <!-- ... (kode kartu proyek seperti yang telah diberikan) ... -->
-                <div class="content">
-                  <h2>A lot of Harvest: Farm</h2>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.alaminnet.alotofharvest"
-                  >
-                    <img src="image/alot.png" alt="yudharta.png" />
-                  </a>
-
-                  <p>
-                   Explore the vast and fertile farmland, grow various types of crops, 
-                   and build the farming empire of your dreams in this best farming simulation game. 
-                   Enjoy an immersive farming experience by planting, tending and harvesting abundant crops. 
-                   Feel the satisfaction of your hard work as the farm thrives and generates huge profits. 
-                   Grow your fields, raise livestock and expand your business to become a successful farmer
-                  </p>
-                </div>
-                <div class="content">
-                    <h2>Yudharta Farm 3D</h2>
-                    <a href="https://play.google.com/store/apps/details?id=com.alaminnet.yudhartafarm3d">
-                        <img src="image/yudharta.png" alt="yudharta.png">
-                    </a>
-                    <p>Yudharta Farm 3D is a 3D farming or gardening game that offers an 
-                        adventure experience of taking care of a garden in a village called Ngalah. 
-                        This game also comes with various exciting features where players can upgrade every tool they use."
-                    </p>
-                </div>
-
-                <div class="content">
-                    <h2>Builder Defender</h2>
-                    <a href="https://hggamesstudio.itch.io/builder-defender">
-                        <img src="image/Builder.png" alt="racing.png">
-                    </a>
-
-                    <p>Builder Defender is an action-packed strategy game that combines building, 
-                        resource management, and intense battles. Your mission is to construct a powerful base, 
-                        upgrade your defenses, and protect your territory from relentless waves of enemy attacks. 
-                        Use strategic planning to gather resources, unlock advanced upgrades, 
-                        and deploy unique defenses to outsmart and outlast your opponents. 
-                        Whether you’re a fan of tactical challenges or fast-paced action, 
-                        Builder Defender offers endless excitement and replayability. 
-                        Can you build the ultimate fortress and prove your skills as a master defender? 
-                        Play now and dominate the battlefield!
-                    </p>
-                </div>
-
-                <div class="content">
-                    <h2>Udarta Tower Defense</h2>
-                    <a href="https://play.google.com/store/apps/details?id=com.alaminnet.UdartaTowerDefense">
-                        <img src="image/udharta.png" alt="udharta.png">
-                    </a>
-
-                    <p>Yudarta Tower Defense is a simple 2D tower defense game. 
-                        Players are required to protect their own tower while simultaneously destroying the enemy's tower.
-                    </p>
-                </div>
-                <div class="content">
-                    <h2>Enemy Slasher</h2>
-                    <a href="https://play.google.com/store/apps/details?id=com.it.alaminnet">
-                        <img src="image/enemyslasher.png" alt="enemyslasher.png">
-                    </a>
-                    <p>Enemy Slasher is a simple 2D platformer game where players must defeat 
-                        all enemies using their weapon, the Slasher.
-                    </p>
-                </div>
-                <div class="content">
-                    <h2>Mini Racing Car</h2>
-                    <a href="https://play.google.com/store/apps/details?id=com.alaminnet.miniracingcars">
-                        <img src="image/racing.png" alt="racing.png">
-                    </a>
-
-                    <p>Mini Racing Car is a mini racing game featuring many exciting and simple features. 
-                        Players will race with unique mini cars against opponents ready to compete.
-                    </p>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Kontak -->
-        <!-- <div class="contact">
-            <hr>
-            <h1 class="title">Contact Information</h1>
-            <br>
-                Mobile phone: 085706200824 <br>
-                E-mail : fatkhulloh6939@gmail.com <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fatkhulmaskapai99@gmail.com<br>
-                Address : Kalimas Utara Rt. 005 Rw. 002 Ds.Bendungan - Kraton - Pasuruan </br>
-                 <a href="https://hg-games-studio.itch.io/">Itch.Io</a>
-            </p>
-        </div> -->
-
-        <div class="contact_info ">
-            <hr>
-            <h1 class="title">Contact Information</h1>
-            <table>
-                <tr>
-                    <th>Mobile Phone:</th>
-                    <td>+6285706200824</td>
-                </tr>
-                <tr>
-                    <th>Email:</th>
-                    <td>
-                        fatkhulloh6939@gmail.com<br>
-                        fatkhulmaskapai99@gmail.com
-                    </td>
-                </tr>
-                <tr>
-                    <th>Address:</th>
-                    <td>Kalimas Utara Rt. 005 Rw. 002 Ds.Bendungan - Kraton - Pasuruan</td>
-                </tr>
-                <tr>
-                    <th>Portfolio:</th>
-                    <td><a href="https://hggamesstudio.itch.io/">Itch.io</a></td>
-                </tr>
-            </table>
-        </div>
-        
-
-        <!-- Form Kontak -->
-        <footer>
-            <div class="container">
-                <form id="emailForm" class="contact" action="index.html">
-                    <hr>
-                    <h1 class="title">Contact Me</h1>
-                    <p id="status"></p>
-                    <div class="form-group">
-                        <input type="text" id="name" name="name"  placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="email" name="email" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <textarea  id="message" name="message" cols="80" rows="10" placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" name="button">Send</button>
-                        <button type="reset" name="reset">Clear</button>
-                    </div>
-                </form>
-            </div>
-        </footer>
+    <div id="GameDiv" cc_exact_fit_screen="false" style="width: 1920px; height: 1024px;">
+      <div id="Cocos3dGameContainer">
+        <canvas id="GameCanvas" width="1920" height="1024" tabindex="99"></canvas>
+      </div>
     </div>
+    <p class="footer">
+      Created with <a href="https://www.cocos.com/products" title="Cocos Creator">Cocos Creator</a>
+    </p>
+    <!-- Polyfills bundle. -->
 
-    <script>
-        $(document).ready(function () {
-            // Initialize EmailJS
-            emailjs.init("HXexKre_IyAbCY8x9CI0I"); // Replace with your EmailJS User ID
+<script src="src/polyfills.bundle.js" charset="utf-8"> </script>    
 
-            // Handle form submission
-            $('#emailForm').on('submit', function (e) {
-                e.preventDefault();
 
-                // Collect form data
-                const formData = {
-                    name: $('#name').val(),
-                    email: $('#email').val(),
-                    message: $('#message').val()
-                };
+<!-- SystemJS support. -->
+<script src="src/system.bundle.js" charset="utf-8"> </script>
 
-                // Send email via EmailJS
-                // emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData)
-                emailjs.send("service_g7j9yw1", "template_feywaqt", formData)
-                    .then(function (response) {
-                        $('#status').text("Email sent successfully!");
-                    }, function (error) {
-                        $('#status').text("Failed to send email. Please try again.");
-                    });
-            });
-        });
-    </script>
-</body>
+<!-- Import map -->
+<script src="src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script>
 
+<script>
+    System.import('./index.js').catch(function(err) { console.error(err); })
+</script>
+  </body>
 </html>
