@@ -4,6 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+.portfolio-btn-fixed {
+    position: fixed;   /* penting */
+    top: 22px;         /* sejajar H1 */
+    right: 24px;
+    z-index: 9999;
+
+    padding: 8px 16px;
+    border-radius: 999px;
+
+    background: rgba(141, 255, 105, 0.15);
+    color: #2e7d32;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(141, 255, 105, 0.3);
+
+    transition: all 0.25s ease;
+}
+
+.portfolio-btn-fixed:hover {
+    background: rgba(141, 255, 105, 0.25);
+    transform: translateY(-1px);
+}
+
 
 /* Umum */
 body {
